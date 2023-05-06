@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    direction: rtl;
 }
 
 header {
@@ -52,7 +51,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(imeges\\what-is-data-analytics.jpeg) no-repeat;
+    background: url(imeges\\what-is-data-analytics.jpeg) no-repeat 100%;
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
@@ -558,7 +557,7 @@ section {
     }
     .project-card{
         position: relative;
-        left: 30px;
+        right: 30px;
     }
     
 
@@ -581,29 +580,31 @@ section {
 @media (max-width:500px){
     .project-card{
         position: relative;
-        left: 50px;
+        right: 50px;
+    }
+    
+    .dude{
+        position: relative;
+        right: 90px;
     }
 }
 @media (max-width:450px){
     .project-card{
         position: relative;
-        left: 60px;
+        right: 60px;
     }
 }
 
 
 @media (max-width:425px){
-    header{
-        min-width: 100%;
-    }
     .project-card{
         position: relative;
-        left: 80px;
+        right: 80px;
     }
     .footer-title{
         font-size: 0.4em;
     }
     .footer{
-        min-width: 100%;
+        position: absolute;
     }
 }
