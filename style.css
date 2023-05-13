@@ -121,10 +121,9 @@ section{
 
 .card{
     background-color: #fff;
-    width: 17em;
+    width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15);
     border-radius: 10px;
-    padding: 25px;
     margin: 15px;
     transition: 0.6s ease;
 }
@@ -375,7 +374,7 @@ section{
 
     .card{
         width: 30em;
-        padding: 10px;
+        padding: 0px;
         margin: 3px;
         align-items: center;
         justify-content: center;
@@ -571,43 +570,11 @@ section{
         justify-content: space-between;
     }
     .footer-title {
-        font-size: 0.8em;
+        font-size: 0.7em;
         font-weight: 400;
     }
     .footer .social-icons a{
         font-size: 0.8em;
         padding: 0 7px 0 0;
-    }
-
-}
-@media (max-width:500px){
-    .project-card{
-        position: relative;
-        right: 50px;
-    }
-    
-    /* .dude{
-        position: relative;
-        right: 90px;
-    } */
-}
-@media (max-width:450px){
-    .project-card{
-        position: relative;
-        right: 60px;
-    }
-}
-
-
-@media (max-width:425px){
-    .project-card{
-        position: relative;
-        right: 80px;
-    }
-    .footer-title{
-        font-size: 0.4em;
-    }
-    .footer{
-        position: absolute;
     }
 }
